@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://use.typekit.net/gnk0gvk.css");
+body {
+  font-family: adobe-garamond-pro, serif;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  color: #89807A;
+  font-weight: 400;
+}
+
+h1, h2, h3, p, figure {
+  margin: 0;
+}
+
+.section__title,
+.section__subtitle {
+  font-family: adobe-garamond-pro, serif;
+  line-height: 1;
+}
+
+.section__title {
+  font-size: 4.75rem;
+  color: #414A4D;
+}
+
+.section__subtitle {
+  font-size: 1.69rem;
+  color: #A3B9BF;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: .5em;
+}
+/*# sourceMappingURL=main.css.map */
