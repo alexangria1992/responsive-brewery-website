@@ -14,9 +14,34 @@
     position: relative;
     padding: .5em;
 
+    &__item 
+    {
+        @include applyOrder(5);
+        transform: scale(.7);
+
+        &.featured {
+            transform: scale(1)
+        } 
+    }
+
+    &__caption
+    {
+        opacity: 0;
+    }
+
+    &__item.featured &__caption
+    {
+        opacity: 1;
+    }
+
     &__button
     {
         all: unset;
+        padding: .5em;
+        &:last-of-type 
+        {
+            order: 99;
+        }
     }
 
     &::before,
@@ -30,6 +55,7 @@
         right: 0; 
         left: 0;
         grid-column: 2 / 4;
+        z-index: 10;
 
 
     }
